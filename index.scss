@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// body {
+//     width: 80vw;
+//     margin: 0 auto;
+   
+// }
+
+h1 {
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+// Line height: 30px
+// Line height: 100%
+// Align: Left
+// Vertical align: Top
+}
+
+span {
+    position: relative;
+    top: 30px;
+    left: 135px;
+}
+.gen {
+    left: 200px;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-style: Bold;
+    font-size: 20px;
+    color: white;
+// Line height: 27px
+// Line height: 100%
+}
+
+.kodecamp  {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.account {
+    background: #3E53C4;
+    border: 1px solid #086DB8;
+    box-sizing: border-box;
+    border-radius: 10px 0px;
+    position: relative;
+    left: 20vw;
+    margin-top: 2rem;
+    color: white;
+}
+
+.signup {
+    // position: absolute;
+    width: 108px;
+    height: 40px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #086DB8;
+    margin-bottom: 1rem;
+}
+
+.img {
+    position: relative;
+    left: 40vw;
+}
+
+input {
+    display: block;
+    outline: none;
+    padding: 5px;
+    height: 40px;
+    width: 277px;
+    border-radius: 4px;
+    border-width: 1px;
+    margin-bottom: 1rem;
+  
+}
+
+input:focus {
+    border-color: #086DB8;
+    
+}
+
+@media only screen and (min-width: 768px){
+    body {
+        text-align: left;
+        width: 90vw;
+        height: 80vh;
+        margin-top: 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: center;
+        align-content: center;
+    }
+
+    p {
+        width: 480px;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 277px);
+        gap: 10px;
+
+        
+    }
+
+    main div {
+        margin-left: 2rem;
+    }
+
+    h1 {
+        padding-top: 15rem;
+    }
+    
+    .purpose {
+        background-color: white;
+        background-image: url("./images/pexels-andres-ayrton-6578392\ 1.png");
+        background-repeat: no-repeat;
+        height: 90vh;
+        padding: 2rem 1rem 0;
+    }
+
+    textarea{
+        width: 45vw;
+        margin-left: -2rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #086DB8;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        background-color: rgba($color: white, $alpha: 0.2);
+       padding: 3rem 3rem;
+    }
+
+    img {
+        opacity: 1;
+    }
+}
